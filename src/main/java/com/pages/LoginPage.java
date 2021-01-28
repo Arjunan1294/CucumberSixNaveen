@@ -10,7 +10,7 @@ public class LoginPage {
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
 	private By signInButton = By.id("SubmitLogin");
-	private By forgotPasswordLink = By.linkText("Forgot your password?");
+	private By forgotPasswordLink = By.linkText("Forgot your password?11");
 	
 	
 	public LoginPage(WebDriver driver) {
