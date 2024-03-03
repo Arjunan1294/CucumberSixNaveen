@@ -10,8 +10,8 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"parallel"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-		monochrome = true
-		//tags="not @Skip"
+		monochrome = true,
+		tags="@Smoke"
 		)
 
 public class ParallelRun extends AbstractTestNGCucumberTests{
