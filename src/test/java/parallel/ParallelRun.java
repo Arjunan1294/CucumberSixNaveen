@@ -9,9 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = {"src/test/resources/parallel/LoginPage.feature"},
 		glue = {"parallel"},
 		plugin = {"pretty",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/",
-				"rerun:target/failedrerun.txt"},
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		monochrome = true
 		//tags="not @Skip"
 		)

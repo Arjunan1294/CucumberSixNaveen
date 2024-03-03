@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="parallel.ParallelRun" time="21.01" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="parallel.ParallelRun" time="18.775" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\gowth\AppData\Local\Temp\surefire12929797870782679259\surefirebooter11503904881214102333.jar C:\Users\gowth\AppData\Local\Temp\surefire12929797870782679259 2024-03-03T22-31-11_267-jvmRun1 surefire5289221428752265182tmp surefire_02996409429339127671tmp"/>
+    <property name="sun.java.command" value="C:\Users\gowth\AppData\Local\Temp\surefire4429185389650235170\surefirebooter11864265374491475191.jar C:\Users\gowth\AppData\Local\Temp\surefire4429185389650235170 2024-03-03T22-37-47_735-jvmRun1 surefire10239699890723558111tmp surefire_017482921939426203263tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\gowth\OneDrive\Documents\Study\CucumberSixNaveen\target\test-classes;C:\Users\gowth\OneDrive\Documents\Study\CucumberSixNaveen\target\classes;C:\Users\gowth\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\gowth\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\gowth\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\gowth\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\gowth\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\gowth\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\gowth\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\gowth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\gowth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\gowth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\gowth\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\gowth\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gowth\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\gowth\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\gowth\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\gowth\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gowth\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\gowth\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\gowth\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\gowth\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gowth\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gowth\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gowth\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\gowth\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\gowth\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\gowth\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gowth\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\gowth\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\gowth\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\gowth\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gowth\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\gowth\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\gowth\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.17.0\extentreports-cucumber6-adapter-2.17.0.jar;C:\Users\gowth\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\gowth\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\gowth\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\gowth\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\gowth\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\extent-pdf-report\2.11.0\extent-pdf-report-2.11.0.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.13.0\cucumber-pdf-report-2.13.0.jar;C:\Users\gowth\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\gowth\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\gowth\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\gowth\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\gowth\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\gowth\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\gowth\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\gowth\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\gowth\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gowth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gowth\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gowth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\gowth\.m2\repository\tech\grasshopper\extent-excel-report\1.3.0\extent-excel-report-1.3.0.jar;C:\Users\gowth\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\gowth\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\gowth\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\gowth\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\gowth\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\gowth\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\gowth\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\gowth\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\gowth\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\gowth\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\gowth\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\gowth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\gowth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\gowth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gowth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\gowth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gowth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\gowth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\gowth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gowth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gowth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\gowth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\gowth\AppData\Local\Temp\surefire12929797870782679259\surefirebooter11503904881214102333.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gowth\AppData\Local\Temp\surefire4429185389650235170\surefirebooter11864265374491475191.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
@@ -62,24 +62,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;](1)" classname="parallel.ParallelRun" time="9.818">
+  <testcase name="runScenario[&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;](1)" classname="parallel.ParallelRun" time="9.451">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 ]]></failure>
     <system-out><![CDATA[
 @Login @Smoke
 Scenario: Forgot Password link                       # src/test/resources/parallel/LoginPage.feature:11
 
-@Login @Smoke
-Scenario: Login page title                     # src/test/resources/parallel/LoginPage.feature:5
-
 @Login @Regression @Skip
 Scenario: Login with correct credentials           # src/test/resources/parallel/LoginPage.feature:16
 Skipped Scrnario is: Login with correct credentials
+
+@Login @Smoke
+Scenario: Login page title                     # src/test/resources/parallel/LoginPage.feature:5
 Browser Value is chrome
 Browser Value is chrome
 Browser Value is chrome
   Given user is on login page                      # parallel.LoginPageSteps.user_is_on_login_page()
   Given user is on login page                        # parallel.LoginPageSteps.user_is_on_login_page()
+  Given user is on login page                  # parallel.LoginPageSteps.user_is_on_login_page()
+LoginPage title isGoogle
+  When user gets the title of the page         # parallel.LoginPageSteps.user_gets_the_title_of_the_page()
+  Then page title should be "Login - My Store" # parallel.LoginPageSteps.page_title_should_be(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:31)
+	at âœ½.page title should be "Login - My Store"(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:8)
+
   Then forgot your password link should be displayed # parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11"}
   (Session info: chrome=122.0.6261.95)
@@ -87,8 +99,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-GDO9BQ7', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53b45c4959e171cc70af40fff7a775b2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d22e890a144d5403d87f715b4b761a6
 *** Element info: {Using=link text, value=Forgot your password?11}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -108,6 +120,12 @@ Session ID: 53b45c4959e171cc70af40fff7a775b2
 	at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:36)
 	at âœ½.forgot your password link should be displayed(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:13)
 
+
+    Embedding Login_page_title [image/png 90158 bytes]
+
+
+    Embedding Forgot_Password_link [image/png 90106 bytes]
+
   When user enters username "g.arjun94@gmail.com"  # parallel.LoginPageSteps.user_enters_username(java.lang.String)
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
   (Session info: chrome=122.0.6261.95)
@@ -115,8 +133,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-GDO9BQ7', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14aa59db3aa27d3a3f41eee95d8841ca
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3fc4e9c521644d815d0dcde6314c15f
 *** Element info: {Using=id, value=email}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -141,74 +159,56 @@ Session ID: 14aa59db3aa27d3a3f41eee95d8841ca
   When user gets the title of the page             # parallel.LoginPageSteps.user_gets_the_title_of_the_page()
   And page title should be "My account - My Store" # parallel.LoginPageSteps.page_title_should_be(java.lang.String)
 
-    Embedding Forgot_Password_link [image/png 90106 bytes]
-
-
-    Embedding Login_with_correct_credentials [image/png 62920 bytes]
-
-  Given user is on login page                  # parallel.LoginPageSteps.user_is_on_login_page()
-LoginPage title isGoogle
-  When user gets the title of the page         # parallel.LoginPageSteps.user_gets_the_title_of_the_page()
-  Then page title should be "Login - My Store" # parallel.LoginPageSteps.page_title_should_be(java.lang.String)
-      java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:31)
-	at âœ½.page title should be "Login - My Store"(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:8)
-
-
-    Embedding Login_page_title [image/png 90158 bytes]
+    Embedding Login_with_correct_credentials [image/png 90106 bytes]
 
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 5180
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 30276
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-StartSitangr tCihnrgo mCehDrroimevDerri v1e2r2 .102.622.601..9624 61(8.8940d b(f829804d7b9fc269145729dc56e145f2d058def4df30a89d6fbd330fa9916b39e0f569-19reef5s6/-brreafns/cbhr-haenacdhs-h/e62ad61s/@{6#29616@0{}#) 96on0 po}r) to n4 61p2o7r
-tOn ly2 l9oc1a8l5 c
-oOnnnelcyti olnso caarel  aclloonwnede.ct
-Piloenass ea see rhett pasl:l//ocwhreodm.ed
-riPvleera.scher omsiuem.eo rhgt/stepcsu:r/i/tcyh-rcoomnesdirdievreart.icohnrs for soumggieusmt.ioorgns/ seonc ukreietyp-icnogn sCihdreormaetDiroinvse rfo rs asfuegg.est
-ions on keeping ChromeDriver safe.
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 33412
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 13455
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 03, 2024 10:31:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 03, 2024 10:37:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 03, 2024 10:31:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 03, 2024 10:37:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 03, 2024 10:31:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 03, 2024 10:37:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;](2)" classname="parallel.ParallelRun" time="11.214">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?11&quot;}&#10;  (Session info: chrome=122.0.6261.95)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53b45c4959e171cc70af40fff7a775b2&#10;*** Element info: {Using=link text, value=Forgot your password?11}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11"}
-  (Session info: chrome=122.0.6261.95)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-GDO9BQ7', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53b45c4959e171cc70af40fff7a775b2
-*** Element info: {Using=link text, value=Forgot your password?11}
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;](3)" classname="parallel.ParallelRun" time="11.365">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}&#10;  (Session info: chrome=122.0.6261.95)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 14aa59db3aa27d3a3f41eee95d8841ca&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="runScenario[&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;](2)" classname="parallel.ParallelRun" time="9.467">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}&#10;  (Session info: chrome=122.0.6261.95)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e3fc4e9c521644d815d0dcde6314c15f&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
   (Session info: chrome=122.0.6261.95)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-GDO9BQ7', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14aa59db3aa27d3a3f41eee95d8841ca
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3fc4e9c521644d815d0dcde6314c15f
 *** Element info: {Using=id, value=email}
+]]></failure>
+  </testcase>
+  <testcase name="runScenario[&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;](3)" classname="parallel.ParallelRun" time="9.467">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?11&quot;}&#10;  (Session info: chrome=122.0.6261.95)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8d22e890a144d5403d87f715b4b761a6&#10;*** Element info: {Using=link text, value=Forgot your password?11}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GDO9BQ7', ip: '192.168.0.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d22e890a144d5403d87f715b4b761a6
+*** Element info: {Using=link text, value=Forgot your password?11}
 ]]></failure>
   </testcase>
 </testsuite>

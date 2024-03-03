@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Forgot Password link", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -114,7 +114,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Forgot Password link", "Optional[Login page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -137,32 +137,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Forgot Password link", "Optional[Login page feature]") -->
+                  <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Forgot Password link", "Optional[Login page feature]")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?11&quot;}
-  (Session info: chrome=122.0.6261.95)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53b45c4959e171cc70af40fff7a775b2
-*** Element info: {Using=link text, value=Forgot your password?11}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.pages.LoginPage.isForgotPasswordLinkExist(LoginPage.java:32)
-	at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:36)
-	at ✽.forgot your password link should be displayed(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:13)
+                  <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:31)
+	at ✽.page title should be &quot;Login - My Store&quot;(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:8)
 ... Removed 4 stack frames
 </div> <!-- stack-trace -->
                   <em>
@@ -181,8 +162,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14aa59db3aa27d3a3f41eee95d8841ca
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3fc4e9c521644d815d0dcde6314c15f
 *** Element info: {Using=id, value=email}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -205,13 +186,32 @@ Session ID: 14aa59db3aa27d3a3f41eee95d8841ca
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
+                  <a name="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Forgot Password link", "Optional[Login page feature]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:31)
-	at ✽.page title should be &quot;Login - My Store&quot;(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:8)
+                  <span class="parameters">("Forgot Password link", "Optional[Login page feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?11&quot;}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GDO9BQ7&apos;, ip: &apos;192.168.0.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\gowth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d22e890a144d5403d87f715b4b761a6
+*** Element info: {Using=link text, value=Forgot your password?11}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.isForgotPasswordLinkExist(LoginPage.java:32)
+	at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:36)
+	at ✽.forgot your password link should be displayed(file:///C:/Users/gowth/OneDrive/Documents/Study/CucumberSixNaveen/src/test/resources/parallel/LoginPage.feature:13)
 ... Removed 4 stack frames
 </div> <!-- stack-trace -->
                   <em>
@@ -283,20 +283,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'parallel.ParallelRun')
-data.setCell(0, 3, 11359);
+data.setCell(0, 3, 9471);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'parallel.ParallelRun')
-data.setCell(1, 3, 11218);
+data.setCell(1, 3, 9455);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'parallel.ParallelRun')
-data.setCell(2, 3, 9805);
+data.setCell(2, 3, 9393);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -330,24 +330,24 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
-                <span class="method-start">1168 ms</span>
+                <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
+                <span class="method-start">1195 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Forgot Password link", "Optional[Login page feature]")</span>
-                <span class="method-start">1168 ms</span>
+                <span class="method-start">1196 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
-                <span class="method-start">1169 ms</span>
+                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
+                <span class="method-start">1196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">12537 ms</span>
+                <span class="method-start">10682 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
