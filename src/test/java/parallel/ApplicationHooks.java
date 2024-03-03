@@ -2,7 +2,7 @@ package parallel;
 
 import java.util.Properties;
 
-import org.junit.Assume;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +25,7 @@ public class ApplicationHooks {
 	@Before(value = "@Skip", order = 0)
 	public void skip_Scenario(Scenario scenario) {
 		System.out.println("Skipped Scrnario is: "+scenario.getName());
-		Assume.assumeTrue(false);
+
 	}
 	
 	

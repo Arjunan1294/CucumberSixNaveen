@@ -1,6 +1,6 @@
 package parallel;
 
-import org.junit.Assert;
+
 
 import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
@@ -8,6 +8,7 @@ import com.qa.factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 
 public class LoginPageSteps {
 	
@@ -16,7 +17,7 @@ public class LoginPageSteps {
 
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-		DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+		DriverFactory.getDriver().get("https://www.google.co.in/");
 	}
 
 	@When("user gets the title of the page")

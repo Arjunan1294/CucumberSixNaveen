@@ -1,11 +1,16 @@
 package com.pages;
 
+import com.qa.util.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import java.util.Properties;
 
 public class LoginPage {
 
 	private WebDriver driver;
+	Properties prop;
+	ConfigReader cf;
 	
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
@@ -15,6 +20,8 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
+		cf = new ConfigReader();
+		prop = cf.init_prop();
 	}
 	
 	public String getLoginPageTitle() {
@@ -26,7 +33,7 @@ public class LoginPage {
 	}
 	
 	public void enterUserName(String userName) {
-		driver.findElement(emailId).sendKeys(userName);
+		driver.findElement(emailId).sendKeys(prop.getProperty("username"));
 	}
 	
 	public void enterPassword(String pwd) throws InterruptedException {
@@ -38,12 +45,5 @@ public class LoginPage {
 		driver.findElement(signInButton).click();
 	}
 	
-	public AccountsPage doLogin(String userName, String pwd) {
-		System.out.println("Login with "+userName + "and" + pwd);
-		driver.findElement(emailId).sendKeys(userName);
-		driver.findElement(password).sendKeys(pwd);
-		driver.findElement(signInButton).click();
-		return new AccountsPage(driver);
 
-	}
 }
